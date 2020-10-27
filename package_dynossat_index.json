@@ -1,0 +1,60 @@
+{
+  "packages":
+  [
+    {
+      "name": "dynossat-edu",
+      "maintainer": "BH Dynamics",
+      "websiteURL": "https://bhdyn.com",
+      "email" : "info@bhdyn.com",
+      "platforms":
+      [
+        {
+          "name": "DynOSSAT-EDU Boards",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://bhdynamics.github.io/packages/dynossat-core-arduino-1.0.0.zip",
+          "archiveFileName": "DynOSSAT-EDU-1.0.0.zip",
+          "checksum": "SHA-256:C4D1AE4721E3C67CB108B4EBB15C806B23EFF7F001FF8E4A1230AE569D467483",
+          "size": "1641314",
+          "boards": [
+            {
+              "name": "DynOSSAT-EDU-OBC"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino9"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+			{
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools":
+      [
+      ]
+    }
+  ]
+}

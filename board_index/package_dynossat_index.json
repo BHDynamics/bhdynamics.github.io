@@ -6,61 +6,7 @@
       "maintainer": "BH Dynamics",
       "websiteURL": "https://bhdyn.com",
       "email" : "info@bhdyn.com",
-      "platforms":
-      [
-        {
-          "name": "DynOSSAT-EDU Boards",
-          "architecture": "samd",
-          "version": "0.0.1",
-          "category": "Contributed",
-          "url": "https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.1.zip",
-          "archiveFileName": "DynOSSAT-EDU-0.0.1.zip",
-          "checksum": "SHA-256:943ABEE5359AECAF52B62F0B57E2F10E233B36CDCB3F4F4B46A3AECD79F734EB",
-          "size": "1640803",
-          "boards": [
-            {
-              "name": "DynOSSAT-EDU-OBC"
-            },
-			{
-              "name": "DynOSSAT-EDU-EPS"
-            }
-          ],
-          "toolsDependencies":
-          [
-            {
-              "packager": "arduino",
-              "name": "arm-none-eabi-gcc",
-              "version": "9-2019q4"
-            },
-            {
-              "packager": "arduino",
-              "name": "bossac",
-              "version": "1.8.0-48-gb176eee"
-            },
-            {
-              "packager": "arduino",
-              "name": "openocd",
-              "version": "0.10.0-arduino9"
-            },
-            {
-              "packager": "arduino",
-              "name": "CMSIS",
-              "version": "5.4.0"
-            },
-			{
-              "packager": "arduino",
-              "name": "CMSIS_Atmel",
-              "version": "1.2.0"
-            },
-			{
-              "packager": "arduino",
-              "name": "arduinoOTA",
-              "version": "1.2.1"
-            }
-          ]
-        }
-      ],
-      "tools":
+	  "tools":
       [
 		{
           "name": "CMSIS",
@@ -162,6 +108,55 @@
               "archiveFileName": "gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
               "checksum": "SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
               "size": "97427309"
+            }
+          ]
+        }
+      ],
+      "platforms":
+      [
+        {
+          "name": "DynOSSAT-EDU Boards",
+          "architecture": "samd",
+          "version": "0.0.1",
+          "category": "Contributed",
+          "url": "https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.1.zip",
+          "archiveFileName": "DynOSSAT-EDU-0.0.1.zip",
+          "checksum": "SHA-256:943ABEE5359AECAF52B62F0B57E2F10E233B36CDCB3F4F4B46A3AECD79F734EB",
+          "size": "1640803",
+          "boards": [
+            {
+              "name": "DynOSSAT-EDU-OBC"
+            },
+			{
+              "name": "DynOSSAT-EDU-EPS"
+            }
+          ],
+          "toolsDependencies":
+          [
+            {
+              "packager": "bhdynamics",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.8.0-48-gb176eee"
+            },
+            {
+              "packager": "bhdynamics",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+			{
+              "packager": "arduino",
+              "name": "CMSIS_Atmel",
+              "version": "1.2.0"
+            },
+			{
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
             }
           ]
         }

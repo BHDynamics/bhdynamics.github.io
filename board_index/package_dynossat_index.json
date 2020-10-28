@@ -13,8 +13,8 @@
                "category":"Contributed",
                "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.2.zip",
                "archiveFileName":"DynOSSAT-EDU-0.0.2.zip",
-               "checksum":"SHA-256:B6D7B219568B0E403009B4DE8647C3C598144F0A6799FB1BA35DD25613538E91",
-               "size":"1640803",
+               "checksum":"SHA-256:7D9DD6B193FDAE9C86FEFEEE5F8D38F123B631093FFD1627B27A2BB3778A2DAA",
+               "size":"1617207",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-OBC"

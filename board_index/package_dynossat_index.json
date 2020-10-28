@@ -9,12 +9,12 @@
             {
                "name":"DynOSSAT-EDU Boards",
                "architecture":"samd",
-               "version":"0.0.2",
+               "version":"0.0.3",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.2.zip",
-               "archiveFileName":"DynOSSAT-EDU-0.0.2.zip",
+               "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.3.zip",
+               "archiveFileName":"DynOSSAT-EDU-0.0.3.zip",
                "checksum":"SHA-256:7D9DD6B193FDAE9C86FEFEEE5F8D38F123B631093FFD1627B27A2BB3778A2DAA",
-               "size":"1617207",
+               "size":"1617206",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-OBC"

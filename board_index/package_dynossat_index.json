@@ -11,9 +11,9 @@
                "architecture":"samd",
                "version":"0.0.3",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.3.zip",
-               "archiveFileName":"DynOSSAT-EDU-0.0.3.zip",
-               "checksum":"SHA-256:EB0EB72ABA5ACB6DD35F32898ECE6F5FD1C859A25F3CA4B843D3869F84EA205C",
+               "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.4.zip",
+               "archiveFileName":"DynOSSAT-EDU-0.0.4.zip",
+               "checksum":"SHA-256:54584ED51540636B6B9CEE466C960159E4C468283215C9BEB606ED05A1F291F0",
                "size":"1617206",
                "boards":[
                   {
@@ -44,11 +44,11 @@
                      "name":"CMSIS-Atmel",
                      "version":"1.2.0"
                   },
-                  {
-                     "packager":"arduino",
-                     "name":"arduinoOTA",
-                     "version":"1.2.1"
-                  }
+				  {
+					 "packager": "arduino",
+					 "name": "openocd",
+					 "version": "0.10.0-arduino7"
+				  }
                ]
             }
          ],

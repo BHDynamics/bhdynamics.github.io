@@ -9,7 +9,7 @@
             {
                "name":"DynOSSAT-EDU Boards",
                "architecture":"samd",
-               "version":"0.0.3",
+               "version":"0.0.4",
                "category":"Contributed",
                "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.4.zip",
                "archiveFileName":"DynOSSAT-EDU-0.0.4.zip",

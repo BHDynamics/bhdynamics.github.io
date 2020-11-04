@@ -7,12 +7,12 @@
          "email":"info@bhdyn.com",
          "platforms":[
             {
-               "name":"DynOSSAT-EDU Boards",
+               "name":"DynOSSAT-EDU SAMD Boards",
                "architecture":"samd",
                "version":"0.0.5",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/dynossat-core-arduino-0.0.5.zip",
-               "archiveFileName":"DynOSSAT-EDU-0.0.5.zip",
+               "url":"https://bhdynamics.github.io/packages/dynossat-arduino-core-samd-0.0.5.zip",
+               "archiveFileName":"dynossat-arduino-core-samd-0.0.5.zip",
                "checksum":"SHA-256:8FD407453E08249A294D213AD505F3851105F7EB943CA1BABA3680EC88DAE842",
                "size":"1661270",
                "boards":[
@@ -44,11 +44,38 @@
                      "name":"CMSIS-Atmel",
                      "version":"1.2.0"
                   },
-				  {
-					 "packager": "arduino",
-					 "name": "openocd",
-					 "version": "0.10.0-arduino7"
-				  }
+                  {
+                     "packager":"arduino",
+                     "name":"openocd",
+                     "version":"0.10.0-arduino7"
+                  }
+               ]
+            },
+            {
+               "name":"DynOSSAT-EDU nRF5 Boards",
+               "architecture":"nrf52",
+               "version":"0.0.1",
+               "category":"Contributed",
+               "url":"https://bhdynamics.github.io/packages/dynossat-arduino-core-nrf5-0.0.1.zip",
+               "archiveFileName":"dynossat-arduino-core-nrf5-0.0.1.zip",
+               "checksum":"SHA-256:D1E3042233F4D216D6AA2E6CAD87009CE050BE795BE2E115313B2210CCFEA2F2",
+               "size":"17660248",
+               "boards":[
+                  {
+                     "name":"DynOSSAT-EDU-Comms"
+                  }
+               ],
+               "toolsDependencies":[
+                  {
+                     "packager":"dynossat-edu",
+                     "name":"arm-none-eabi-gcc",
+                     "version":"9-2019q4"
+                  },
+                  {
+                     "packager":"adafruit",
+                     "name":"nrfjprog",
+                     "version":"9.4.0"
+                  }
                ]
             }
          ],
@@ -153,6 +180,40 @@
                      "archiveFileName":"gcc-arm-none-eabi-7-2018-q2-update-linux32.tar.bz2",
                      "checksum":"SHA-256:090a0bc2b1956bc49392dff924a6c30fa57c88130097b1972204d67a45ce3cf3",
                      "size":"97427309"
+                  }
+               ]
+            },
+            {
+               "name":"nrfjprog",
+               "version":"10.10.0",
+               "systems":[
+                  {
+                     "host":"i386-apple-darwin11",
+                     "checksum":"SHA-256:C5CED249AE2AB4385BB0C9820E1814A47AA19BA794B0317CAE9D790C4D3D1E6F",
+                     "size":"2308106",
+                     "archiveFileName":"nrfjprog-10.10.0-osx.tar.gz",
+                     "url":"https://bhdynamics.github.io/tools/nrfjprog-10.10.0-osx.tar.gz"
+                  },
+                  {
+                     "host":"i686-linux-gnu",
+                     "checksum":"SHA-256:C91A1AE86757D54EA5E8409E7082A0E14EDFD8C0D4A0256F396262D7C0282EF7",
+                     "size":"8329726",
+                     "archiveFileName":"nrfjprog-10.10.0-linux32.tar.gz",
+                     "url":"https://bhdynamics.github.io/tools/nrfjprog-10.10.0-linux32.tar.gz"
+                  },
+                  {
+                     "host":"x86_64-pc-linux-gnu",
+                     "checksum":"SHA-256:4CA0E4288B1BFC2218EDC96D9DACB7AB9B752A4F17F1CB3BC105E0E37653D370",
+                     "size":"7843532",
+                     "archiveFileName":"nrfjprog-10.10.0-linux64.tar.gz",
+                     "url":"https://bhdynamics.github.io/tools/nrfjprog-10.10.0-linux64.tar.gz"
+                  },
+                  {
+                     "host":"i686-mingw32",
+                     "checksum":"SHA-256:859F829AFD8EFF24B947618D2668B1A33E61F97147E3FAE2AF898B267EA76311",
+                     "size":"1097292",
+                     "archiveFileName":"nrfjprog-10.10.0-win32.tar.gz",
+                     "url":"https://bhdynamics.github.io/tools/nrfjprog-10.10.0-win32.tar.gz"
                   }
                ]
             }

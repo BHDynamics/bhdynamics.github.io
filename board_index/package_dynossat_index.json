@@ -72,9 +72,9 @@
                      "version":"9-2019q4"
                   },
                   {
-                     "packager":"adafruit",
+                     "packager":"dynossat-edu",
                      "name":"nrfjprog",
-                     "version":"9.4.0"
+                     "version":"10.10.0"
                   }
                ]
             }

@@ -1,20 +1,20 @@
 {
    "packages":[
       {
-         "name":"dynossat-edu",
+         "name":"dynossat",
          "maintainer":"BH Dynamics",
          "websiteURL":"https://bhdyn.com",
          "email":"info@bhdyn.com",
          "platforms":[
             {
-               "name":"DynOSSAT-EDU SAMD Boards",
+               "name":"DynOSSAT SAMD Boards",
                "architecture":"samd",
                "version":"0.0.5",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/dynossat-arduino-core-samd-0.0.5.zip",
-               "archiveFileName":"dynossat-arduino-core-samd-0.0.5.zip",
-               "checksum":"SHA-256:8FD407453E08249A294D213AD505F3851105F7EB943CA1BABA3680EC88DAE842",
-               "size":"1661270",
+               "url":"https://bhdynamics.github.io/packages/DynOSSAT_SAMD_Core_1.0.0.zip",
+               "archiveFileName":"DynOSSAT_SAMD_Core_1.0.0.zip",
+               "checksum":"SHA-256:0074FEFBA695F505996E8B36B1E76E4F43AF185D3D9C6A278F4F3AE92DBF4CB7",
+               "size":"1657550",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-OBC"
@@ -25,7 +25,7 @@
                ],
                "toolsDependencies":[
                   {
-                     "packager":"dynossat-edu",
+                     "packager":"dynossat",
                      "name":"arm-none-eabi-gcc",
                      "version":"9-2019q4"
                   },
@@ -52,14 +52,14 @@
                ]
             },
             {
-               "name":"DynOSSAT-EDU nRF5 Boards",
+               "name":"DynOSSAT nRF5 Boards",
                "architecture":"nrf52",
                "version":"0.0.1",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/dynossat-arduino-core-nrf5-0.0.1.zip",
-               "archiveFileName":"dynossat-arduino-core-nrf5-0.0.1.zip",
-               "checksum":"SHA-256:D1E3042233F4D216D6AA2E6CAD87009CE050BE795BE2E115313B2210CCFEA2F2",
-               "size":"17660248",
+               "url":"https://bhdynamics.github.io/packages/DynOSSAT_nRF5_Core_0.0.1.zip",
+               "archiveFileName":"DynOSSAT_nRF5_Core_0.0.1.zip",
+               "checksum":"SHA-256:4CAEB7271878ED288A79B0A2720DF2A05F24303DB3C17DE6FB7310995068B1D5",
+               "size":"3146347",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-Comms"
@@ -67,12 +67,12 @@
                ],
                "toolsDependencies":[
                   {
-                     "packager":"dynossat-edu",
+                     "packager":"dynossat",
                      "name":"arm-none-eabi-gcc",
                      "version":"9-2019q4"
                   },
                   {
-                     "packager":"dynossat-edu",
+                     "packager":"dynossat",
                      "name":"nrfjprog",
                      "version":"10.10.0"
                   }

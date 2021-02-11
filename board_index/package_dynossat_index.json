@@ -1,31 +1,34 @@
 {
    "packages":[
       {
-         "name":"dynossat",
+         "name":"bhdynamics",
          "maintainer":"BH Dynamics",
          "websiteURL":"https://bhdyn.com",
          "email":"info@bhdyn.com",
          "platforms":[
             {
-               "name":"DynOSSAT SAMD Boards",
+               "name":"BH Dynamics SAMD Boards",
                "architecture":"samd",
-               "version":"0.0.5",
+               "version":"1.0.1",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/DynOSSAT_SAMD_Core_1.0.0.zip",
-               "archiveFileName":"DynOSSAT_SAMD_Core_1.0.0.zip",
-               "checksum":"SHA-256:ACDC17755255E865E5DF24C7B09BD20FD1CE5CC81915410837BA630AB934DA4D",
-               "size":"1657609",
+               "url":"https://bhdynamics.github.io/packages/BHDynamics_SAMD_Core_1.0.1.zip",
+               "archiveFileName":"BHDynamics_SAMD_Core_1.0.1.zip",
+               "checksum":"SHA-256:167E05C35E29E7E2DE0BCDB72438237CF6A3B66447CBE82A66211A49BB8533A8",
+               "size":"1677319",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-OBC"
                   },
                   {
                      "name":"DynOSSAT-EDU-EPS"
+                  },
+				  {
+                     "name":"DynaLoRa-USB"
                   }
                ],
                "toolsDependencies":[
                   {
-                     "packager":"dynossat",
+                     "packager":"bhdynamics",
                      "name":"arm-none-eabi-gcc",
                      "version":"9-2019q4"
                   },
@@ -35,7 +38,7 @@
                      "version":"1.8.0-48-gb176eee"
                   },
                   {
-                     "packager":"dynossat",
+                     "packager":"bhdynamics",
                      "name":"CMSIS",
                      "version":"5.4.0"
                   },
@@ -52,12 +55,12 @@
                ]
             },
             {
-               "name":"DynOSSAT nRF5 Boards",
+               "name":"BH Dynamics nRF5 Boards",
                "architecture":"nrf52",
                "version":"0.0.1",
                "category":"Contributed",
                "url":"https://bhdynamics.github.io/packages/DynOSSAT_nRF5_Core_0.0.1.zip",
-               "archiveFileName":"DynOSSAT_nRF5_Core_0.0.1.zip",
+               "archiveFileName":"BHDynamics_nRF5_Core_0.0.1.zip",
                "checksum":"SHA-256:4CAEB7271878ED288A79B0A2720DF2A05F24303DB3C17DE6FB7310995068B1D5",
                "size":"3146347",
                "boards":[
@@ -67,12 +70,12 @@
                ],
                "toolsDependencies":[
                   {
-                     "packager":"dynossat",
+                     "packager":"bhdynamics",
                      "name":"arm-none-eabi-gcc",
                      "version":"9-2019q4"
                   },
                   {
-                     "packager":"dynossat",
+                     "packager":"bhdynamics",
                      "name":"nrfjprog",
                      "version":"10.10.0"
                   }

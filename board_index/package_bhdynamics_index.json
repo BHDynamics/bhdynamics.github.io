@@ -13,8 +13,8 @@
                "category":"Contributed",
                "url":"https://bhdynamics.github.io/packages/BHDynamics_SAMD_Core_1.0.1.zip",
                "archiveFileName":"BHDynamics_SAMD_Core_1.0.1.zip",
-               "checksum":"SHA-256:167E05C35E29E7E2DE0BCDB72438237CF6A3B66447CBE82A66211A49BB8533A8",
-               "size":"1677319",
+               "checksum":"SHA-256:18D63C7CE7E5DA1CBD8CC55FB549012BC28F1BFEB4FB9A50FABA4F77F14A4A89",
+               "size":"1681897",
                "boards":[
                   {
                      "name":"DynOSSAT-EDU-OBC"

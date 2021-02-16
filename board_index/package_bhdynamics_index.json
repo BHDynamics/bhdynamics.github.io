@@ -9,11 +9,11 @@
             {
                "name":"BH Dynamics SAMD Boards",
                "architecture":"samd",
-               "version":"1.0.1",
+               "version":"1.0.2",
                "category":"Contributed",
-               "url":"https://bhdynamics.github.io/packages/BHDynamics_SAMD_Core_1.0.1.zip",
-               "archiveFileName":"BHDynamics_SAMD_Core_1.0.1.zip",
-               "checksum":"SHA-256:554B047029DEDFAFB91E798077F662F631465F800D8A10F06C9B0D0E973FA535",
+               "url":"https://bhdynamics.github.io/packages/BHDynamics_SAMD_Core_1.0.2.zip",
+               "archiveFileName":"BHDynamics_SAMD_Core_1.0.2.zip",
+               "checksum":"SHA-256:B186FD151D12024FB66FC5898F9DC9C7A8B3C167B72345B1A65452CFBCF3B4F4",
                "size":"1682096",
                "boards":[
                   {
